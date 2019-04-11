@@ -1,6 +1,7 @@
-package request;
+package com.bebel.youloseClient.request;
 
-import enums.SaveType;
+import com.bebel.soclews.request.KongregateRequest;
+import com.bebel.youloseClient.enums.SaveType;
 
 /**
  * Requete du controller Save de YouLose

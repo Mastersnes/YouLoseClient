@@ -1,8 +1,9 @@
-package bean;
+package com.bebel.youloseClient.bean;
 
-import enums.SaveType;
+import com.bebel.soclews.bean.IData;
+import com.bebel.youloseClient.enums.SaveType;
 
-import static enums.Emplacement.ENIGME1;
+import static com.bebel.youloseClient.enums.Emplacement.ENIGME1;
 
 /**
  * Sauvegarde de base

@@ -1,11 +1,11 @@
-package client;
+package com.bebel.youloseClient.client;
 
-import abstrait.AbstractClient;
-import enums.SaveType;
-import request.GetSaveRequest;
-import request.KongregateRequest;
-import request.SaveRequest;
-import response.GetSavesResponse;
+import com.bebel.soclews.abstrait.AbstractClient;
+import com.bebel.soclews.request.KongregateRequest;
+import com.bebel.youloseClient.enums.SaveType;
+import com.bebel.youloseClient.request.GetSaveRequest;
+import com.bebel.youloseClient.request.SaveRequest;
+import com.bebel.youloseClient.response.GetSavesResponse;
 
 import java.util.Map;
 

@@ -1,6 +1,7 @@
-package response;
+package com.bebel.youloseClient.response;
 
-import enums.SaveType;
+import com.bebel.soclews.response.GeneralResponse;
+import com.bebel.youloseClient.enums.SaveType;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,6 @@
-package bean;
+package com.bebel.youloseClient.bean;
+
+import com.bebel.soclews.bean.IData;
 
 import java.util.ArrayList;
 import java.util.List;

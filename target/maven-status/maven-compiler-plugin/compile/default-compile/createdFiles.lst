@@ -1,8 +1,8 @@
-response\GetSavesResponse.class
-enums\SaveType.class
-request\SaveRequest.class
-bean\Enigme1Data.class
-request\GetSaveRequest.class
-client\YouLoseClient.class
-bean\GameData.class
-enums\Emplacement.class
+com\bebel\youloseClient\enums\SaveType.class
+com\bebel\youloseClient\client\YouLoseClient.class
+com\bebel\youloseClient\response\GetSavesResponse.class
+com\bebel\youloseClient\bean\Enigme1Data.class
+com\bebel\youloseClient\request\GetSaveRequest.class
+com\bebel\youloseClient\bean\GameData.class
+com\bebel\youloseClient\enums\Emplacement.class
+com\bebel\youloseClient\request\SaveRequest.class
