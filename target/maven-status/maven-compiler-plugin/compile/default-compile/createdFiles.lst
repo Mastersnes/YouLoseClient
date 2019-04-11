@@ -1,0 +1,8 @@
+response\GetSavesResponse.class
+enums\SaveType.class
+request\SaveRequest.class
+bean\Enigme1Data.class
+request\GetSaveRequest.class
+client\YouLoseClient.class
+bean\GameData.class
+enums\Emplacement.class
