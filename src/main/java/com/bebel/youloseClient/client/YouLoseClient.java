@@ -2,6 +2,7 @@ package com.bebel.youloseClient.client;
 
 import com.bebel.soclews.abstrait.AbstractClient;
 import com.bebel.soclews.request.KongregateRequest;
+import com.bebel.soclews.util.HashUtil;
 import com.bebel.youloseClient.enums.SaveType;
 import com.bebel.youloseClient.request.GetSaveRequest;
 import com.bebel.youloseClient.request.SaveRequest;
@@ -17,7 +18,7 @@ public class YouLoseClient extends AbstractClient {
         init(baseUrl);
     }
     public YouLoseClient() {
-        init("http://bebelws.fr.nf/youlose");
+        init("https://bebel-server.herokuapp.com/youlose");
     }
 
     public Map<SaveType, String> getSaves(final String username) {
@@ -45,6 +46,6 @@ public class YouLoseClient extends AbstractClient {
     }
 
     public String getSecret(final String username) {
-        return "YouLose1145"+username;
+        return HashUtil.getInstance().hash("YouLose1145"+username);
     }
 }
